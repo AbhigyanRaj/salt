@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Noto+Sans+JP:wght@800&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  background-color: #000000;
+  position: relative;
+  transition: 0.3s;
+}
+
+#page1 > img {
+  position: absolute;
+  top: 18px;
+  left: 9px;
+  width: 100px;
+  height: auto;
+}
+.page #Photo {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+}
+
+
+.page #Photo {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.menu-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 25px;
+  right: 70%;
+}
+
+.menu-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-links li {
+  margin: 0 16px;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #b9b6b6;
+  font-size: 0.57em;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.menu-links a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.menu-links a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  background-color: rgb(212, 34, 34);
+  transition: width 0.3s;
+}
+
+.menu-links a:hover::before {
+  width: 100%;
+}
+
+.menu-links2 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 39px;
+  left: 83.5%;
+  transition: opacity 0.3s;
+}
+
+.menu-links2:hover img {
+  opacity: 0.7; /* Adjust the opacity as needed */
+}
+
+.menu-links2 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-links2 li {
+  margin: 0 8px;
+}
+
+.menu-links2 a {
+  text-decoration: none;
+  color: #b9b6b6;
+  font-size: 0.8em;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu-links2 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.menu-links2 a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  background-color: rgb(212, 34, 34);
+  transition: width 0.3s;
+}
+
+.menu-links2 a:hover::before {
+  width: 60%;
+}
+
+.menu-links2 img {
+  width: 20px;
+  height: auto;
+  margin-right: 29px;
+  opacity: 0.7; /* Set the default opacity to 1 */
+  transition: opacity 0.3s; /* Add transition for smooth effect */
+}
+
+.menu-links2 img:hover {
+  opacity: 8; /* Set the opacity to 1 on hover */
+}
+
+
+.menu-links3 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 85%;
+  right: 27%;
+  
+}
+
+.menu-links3 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-links3 li {
+  margin: 0 60px;
+}
+
+.menu-links3 a {
+  text-decoration: none;
+  color: #cbcaca;
+  font-size: 0.63em;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  margin-right: 12px;
+  position: relative;
+}
+
+.menu-links3 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.menu-links3 a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  background-color: rgb(212, 34, 34);
+  transition: width 0.3s;
+}
+
+.menu-links3 a:hover::before {
+  width: 100%;
+}
+
+
+#page2{
+  background-color: #000000;
+  
+}
+
+#page2 > img {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  width: 700px;
+  height: auto;
+}
+
+#page2 h1{
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  
+}
+#page2 .highlight-text1 {
+  color:rgb(255, 63, 63);
+}
+
+#page2 h4 {
+  position: absolute;
+  top: 45%;
+  left: 1.5%;
+  min-height: min-content;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; /* You can adjust the size accordingly */
+  text-align: left;
+}
+
+
+#page3{
+  background-color: #000000;
+  
+}
+
+#page3 > img {
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  width: 700px;
+  height: auto;
+}
+
+#page3 h1{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  
+}
+#page3 .highlight-text1 {
+  color:rgb(245, 131, 187);
+}
+
+#page3 h4 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  min-height: min-content;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; /* You can adjust the size accordingly */
+  text-align: left;
+}
+
+
+
+.button-2 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 49%;
+}
+
+.button-2 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.button-2 li {
+  margin: 0 16px;
+}
+
+.button-2 a {
+  text-decoration: none;
+  color: #cbcaca;
+  font-size: 0.63em;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.button-2 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button-2 a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  background-color: rgb(212, 34, 34);
+  transition: width 0.3s;
+}
+
+.button-2 a:hover::before {
+  width: 100%;
+}
+
+
+.button-1 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 0.5%;
+}
+
+.button-1 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.button-1 li {
+  margin: 0 16px;
+}
+
+.button-1 a {
+  text-decoration: none;
+  color: #cbcaca;
+  font-size: 0.63em;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.button-1 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button-1 a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  background-color: rgb(212, 34, 34);
+  transition: width 0.3s;
+}
+
+.button-1 a:hover::before {
+  width: 100%;
+}
+
+
+
+
+.page #Photo {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+}
+
+
+
+
+
+
+#page4{
+  background-color: #000000;
+  
+}
+
+#page4 > img {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  width: 300px;
+  height: auto;
+}
+#page4 img:nth-child(3) {
+  position: absolute;
+  top: 25%;
+  left: 41%;
+  width: 300px;
+  height: auto;
+}
+#page4 img:nth-child(4) {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  width: 300px;
+  height: auto;
+}
+
+#page4 h1{
+  position: absolute;
+  top: 5%;
+  left: 33%;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  
+}
+#page4 .highlight-text1 {
+  color:rgb(254, 63, 63);
+}
+
+#page4 h2 {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  min-height: min-content;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; /* You can adjust the size accordingly */
+  text-align: left;
+}
+
+#page4 h3 {
+  position: absolute;
+  top: 75%;
+  left: 41%;
+  min-height: min-content;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; /* You can adjust the size accordingly */
+  text-align: left;
+}
+
+#page4 h4 {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  min-height: min-content;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; /* You can adjust the size accordingly */
+  text-align: left;
+}
+
+#page4 .highlight-text {
+  color: rgb(255, 63, 63);}
+
+
+
+#loader{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  transition: all ease 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loader h1{
+  font-size: 2vw;
+  color: transparent;
+  background: linear-gradient(to right,rgb(255, 63, 63),rgb(255, 63, 63));
+  -webkit-background-clip: text;
+  position: absolute;      
+  opacity: 0;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  font-family: "Poppins", sans-serif;
+  
+}
+#loader h1:nth-child(2){
+  animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+  animation-delay: 3s;
+}
+
+@keyframes load {
+  0%{
+      opacity: 0;
+  }
+  10%{
+      opacity: 1;
+  }
+  90%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
+
+@media (max-width:600px) {
+  #loader h1{
+      font-size: 9vw;
+    
+  }
+}
+
+#page1 {
+  position: relative;
+}
+
+#page1 > img {
+  position: absolute;
+  top: 18px;
+  left: 9px;
+  width: 100px;
+  height: auto;
+  z-index: 2; /* Bring the image forward */
+}
+
+#page1 #Photo {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  position: relative;
+  z-index: 1; /* Set a lower z-index to position the image behind the text */
+}
+
+
+#page1 #Photo {
+  display: block;
+  margin: 0 auto;
+}
+
+ 
+
+
+#page1 h2{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0; /* Bring the text backward */
+  font-family: 'Noto Sans JP', sans-serif;
+  width: max-content;
+  
+  
+  
+}
+#page1 .highlight-text {
+  color: rgb(255, 63, 63);
+}
+#page1 h3{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  z-index: 0; /* Bring the text backward */
+  
+  width: min-content;
+ 
+font-family: 'Noto Sans JP', sans-serif;
+
+  color:rgb(255, 63, 63);
+
+}
+
+#page5{
+  background-color: #000000;
+  
+}
+#page5 h1{
+  position:absolute;
+  top: 1%;
+  left: 5%;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+
+
+}
+
+#page5 .highlight-text {
+  color: rgb(255, 63, 63);
+}
+#page5 p {
+  position: absolute;
+  top: 94%; /* Adjust this value based on your layout */
+  left: 50%; /* Adjust this value based on your layout */
+  transform: translate(-50%, -50%);
+  color: rgb(144, 144, 144);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+
+#page5 > img {
+  position: absolute;
+  top: 45%; /* Adjust this value based on your layout */
+  left: 8%;
+  width: 300px;
+  height: auto;
+  transform: translate(0, -50%);
+}
+
+#page5 img:nth-child(3) {
+  position: absolute;
+  top: 45%; /* Adjust this value based on your layout */
+  left: 41%;
+  width: 300px;
+  height: auto;
+  transform: translate(0, -50%);
+}
+
+#page5 img:nth-child(4) {
+  position: absolute;
+  top: 45%; /* Adjust this value based on your layout */
+  left: 75%;
+  width: 300px;
+  height: auto;
+  transform: translate(0, -50%);
+}
+
+
+
+
+
+
+
